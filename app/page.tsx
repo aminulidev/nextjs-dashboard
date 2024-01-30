@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Page() {
-  const isSignIn = false;
+  const isSignIn = true;
 
   return (
     <main className="flex min-h-screen flex-col p-4">
@@ -20,7 +20,7 @@ export default function Page() {
             </a>
             , brought to you by Vercel.
           </p>
-          
+
           {isSignIn ? (
             <Link
               href="/dashboard"
