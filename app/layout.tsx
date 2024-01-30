@@ -1,3 +1,4 @@
+import 'react-loading-skeleton/dist/skeleton.css';
 import '@/app/ui/global.css';
 import { poppins } from './ui/fonts';
 
