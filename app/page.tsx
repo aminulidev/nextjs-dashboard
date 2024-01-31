@@ -24,14 +24,14 @@ export default function Page() {
           {isSignIn ? (
             <Link
               href="/dashboard"
-              className="flex items-center gap-5 self-start rounded-lg bg-indigo-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-indigo-400 md:text-base"
+              className="flex items-center gap-5 self-start rounded-lg bg-indigo-500 px-6 py-3  font-medium text-white transition-colors hover:bg-indigo-400 md:text-base"
             >
               <span>Dashboard</span> <ArrowRightIcon className="w-5 md:w-6" />
             </Link>
           ): (
             <Link
               href="/login"
-              className="flex items-center gap-5 self-start rounded-lg bg-indigo-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-indigo-400 md:text-base"
+              className="flex items-center gap-5 self-start rounded-lg bg-indigo-500 px-6 py-3  font-medium text-white transition-colors hover:bg-indigo-400 md:text-base"
             >
               <span>Log In</span> <ArrowRightIcon className="w-5 md:w-6" />
             </Link>
